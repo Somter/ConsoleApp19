@@ -216,7 +216,7 @@ namespace CSharpApplication.SearchInFiles
             {
                 File.Delete(path);
             }
-            else if (Directory.Exists(path))
+            else if (Directory.Exists(path)) 
             {
                 Directory.Delete(path, true);
             }
